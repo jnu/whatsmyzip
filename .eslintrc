@@ -1,0 +1,11 @@
+env:
+    browser: true
+    es6: true
+
+ecmaFeatures:
+    blockBindings: true
+    modules: true
+
+rules:
+    no-underscore-dangle: 0
+    quotes: [2, 'single', 'avoid-escape']

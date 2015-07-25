@@ -1,0 +1,43 @@
+<!doctype HTML>
+<html>
+<head>
+    <title>What's my zip?</title>
+
+    <style type="text/css">
+    body {
+        color: #333;
+        font-family: sans-serif;
+    }
+    #container {
+        width: 300px;
+        text-align: center;
+        font-size: 0.8em;
+        height: 80px;
+        box-sizing: border-box;
+    }
+    #coords {
+        font-size: 0.7em;
+        color: #777;
+        margin: 1em;
+    }
+    .hide {
+        display: none;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="zip"></h1>
+        <div id="place"></div>
+        <div id="coords" class="hide">
+            <div>Latitude: <span id="lat"></span>&deg;</div>
+            <div>Longitude: <span id="long"></span>&deg;</div>
+        </div>
+        <div id="info"></div>
+        <div id="error"></div>
+    </div>
+
+    <script type="text/javascript" src="bundle.js"></script>
+</body>
+</html>
